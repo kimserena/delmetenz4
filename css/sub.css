@@ -1,3 +1,200 @@
+/*about*/
+.post_content{
+    margin: 20px 0;
+}
+.post_content h1.title {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #4c4c4c;
+}
+.post_content .ab_top{
+    margin: 20px 0px;
+}
+.post_content .ab_middle{
+    margin: 20px 0px;
+}
+
+.post_content .ab_text{
+    font-size:30px;
+    margin: 20px 0;
+}
+
+.one_third{display: inline-block; width: 30%;}
+.one_third img{width: 100%;}
+.two_third{display: inline-block; width: 65%; vertical-align: top; margin-left:4%; margin-top: 40px;}
+
+.wp-caption {
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    max-width: 96%;
+    padding: 8px;
+}
+
+.one_half{display: inline-block; width: 24%;}
+
+/*business*/
+.businesswrap {}
+
+.business-sub {
+    position: relative;
+    display: inline-block;
+}
+
+.business-sub:first-child {
+    margin-left: 14px;
+}
+
+.business-sub .writer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.business-sub .writer p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.business-sub .writer i {
+    color: #fff;
+}
+
+.business-sub .writer img {
+    width: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.business-sub .img img {
+    width: 355px;
+    height: 355px;
+}
+
+.business-subject {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.business-subject a p {
+    color: #fff;
+    font-size: 20px;
+    width: 320px;
+    margin-bottom: 15px;
+}
+
+.business-subject .line {
+    border-bottom: 2px solid #fff;
+    width: 100%;
+}
+
+.business-sub .comment-sub {
+    display: inline-block;
+    font-size: 13px;
+    color: #fff;
+}
+
+.business-sub .comment-sub span {
+    margin-left: 10px;
+    font-size: 13.8px;
+    color: #fff;
+}
+
+.business-sub .like {
+    display: inline-block;
+    float: right;
+}
+
+.business-sub .like i {
+    color: #cc3444;
+}
+
+/*contact*/
+.contactbg {
+    background: url("../img/office-925806.jpg") no-repeat center;
+    background-size: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.contactbg h1 {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+.contact {}
+
+.contact h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0;
+    font-weight: normal;
+}
+
+label span {
+    color: #D74545;
+    font-size: 8px;
+    vertical-align: top;
+    font-weight: bold;
+    margin-right: 1px;
+}
+
+label {
+    font-size: 10px;
+    color: #aaa;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit {
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: #7FCCF7;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.95;
+}
+*/
+
+
 /*blog*/
 .story {
     position: relative;
@@ -132,6 +329,10 @@
     float: right;
 }
 
+.blog-sub .like i {
+    color: #cc3444;
+}
+
 
 /*readblog*/
 
@@ -217,6 +418,10 @@
     margin: 20px;
     display: inline-block;
     float: right;
+}
+
+.blogread-sub .like i{
+    color:#cc3444;
 }
 
 .bnew-list {

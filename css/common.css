@@ -43,6 +43,12 @@ body {
     width: 90%;
 }
 
+.line100 {
+    border-bottom: 1px solid #ddd;
+    margin: 10px auto;
+    width: 100%;
+}
+
 .logo {
     display: inline-block;
     margin: 15px 0 15px 50px;
@@ -253,6 +259,10 @@ h2.main-title {
     margin: 12px 20px;
     display: inline-block;
     float: right;
+}
+
+.blog .like i{
+    color:#cc3444;
 }
 
 footer {
