@@ -1,6 +1,13 @@
 /*about*/
+.aboutbg{
+    background: url("../img/video-games-893225.jpg") no-repeat bottom;
+    background-size:100%;
+    height: 100px;
+}
+.ab_top img{width: 1200px;}
 .post_content{
     margin: 20px 0;
+    line-height: 30px;
 }
 .post_content h1.title {
     font-size: 30px;
@@ -15,25 +22,27 @@
 }
 
 .post_content .ab_text{
-    font-size:30px;
+    font-size:20px;
     margin: 20px 0;
+    text-transform: uppercase;
 }
 
-.one_third{display: inline-block; width: 30%;}
+.one_third{display: inline-block; width: 20%;}
 .one_third img{width: 100%;}
-.two_third{display: inline-block; width: 65%; vertical-align: top; margin-left:4%; margin-top: 40px;}
+.two_third{display: inline-block; width: 70%; vertical-align: top; margin-left:4%; margin-top: 0px;}
 
-.wp-caption {
-    border: 1px solid #ddd;
-    text-align: center;
-    background-color: #f3f3f3;
-    padding-top: 4px;
-    margin-bottom: 10px;
-    max-width: 96%;
-    padding: 8px;
-}
+/*
+.ab_history_l{display: inline-block; 33%; margin-right: 2%;}
+.ab_history_c{display: inline-block; 33%; vertical-align: top; margin-right: 2%;}
+.ab_history_r{display: inline-block; 33%; vertical-align: top;}
+.ab_date{font-size:30px; color:#929292; margin-right: 20px; line-height: 50px; font-weight: bold;}
+.ab_data{vertical-align: top; display: inline-block; padding-top: 10px;}
+.ab_data2{vertical-align: top; display: block; padding-top: 10px; padding-bottom: 10px; margin-left: 93px;}
+*/
+.ab_data2{vertical-align: top; display: block; margin-left: 38px;}
 
-.one_half{display: inline-block; width: 24%;}
+.ab_service{display: inline-block; width: 33%; vertical-align: top;}
+.ab_service .ab_title{font-size:25px; margin: 10px 0;}
 
 /*business*/
 .businesswrap {}
@@ -44,7 +53,7 @@
 }
 
 .business-sub:first-child {
-    margin-left: 14px;
+/*    margin-left: 14px;*/
 }
 
 .business-sub .writer {
@@ -56,7 +65,7 @@
 .business-sub .writer p {
     display: inline-block;
     vertical-align: top;
-    font-size: 10px;
+    font-size: 12px;
     color: #fff;
     margin-left: 10px;
 }
@@ -72,7 +81,7 @@
 }
 
 .business-sub .img img {
-    width: 355px;
+    width: 363px;
     height: 355px;
 }
 
@@ -144,15 +153,15 @@
 
 label span {
     color: #D74545;
-    font-size: 8px;
+    font-size: 10px;
     vertical-align: top;
     font-weight: bold;
     margin-right: 1px;
 }
 
 label {
-    font-size: 10px;
-    color: #aaa;
+    font-size: 11px;
+    color: #777;
     font-weight: bold;
     vertical-align: top;
 }
